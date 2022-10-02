@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    gap: 500px;
+    padding: 20px 50px 20px 50px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.links a{
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    padding: 0 5px 0 5px;
+}
+
+.signup {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px 40px 80px;
+}
+
+.placeholder{
+    background-color: #6D747D;
+    height: 200px;
+    width: 600px;
+    text-align: center;
+    
+}
+
+.sign{
+    padding: 10px 20px 10px 20px ;
+    border-radius: 10px;
+    background-color: #3B82F6;
+    color: white;
+}
+.randominfo{
+    
+    text-align: center;
+}
+
+.thumb-container{
+    display: flex;
+}
+
+.thumb{
+    height: 80px;
+    width: 80px;
+    border: solid 2px#3B82F6;
+    border-radius: 10px;
+}
+
+.quotes{
+    background-color: #E5E7EB;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+}
