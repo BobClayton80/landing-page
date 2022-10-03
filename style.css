@@ -8,10 +8,10 @@
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    gap: 500px;
+    
     padding: 20px 50px 20px 50px;
 }
 .logo{
@@ -31,9 +31,9 @@
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 40px 80px 40px 80px;
+    padding: 40px 50px 40px 50px;
 }
 
 .placeholder{
@@ -41,33 +41,46 @@
     height: 200px;
     width: 600px;
     text-align: center;
+
     
 }
 
 .sign{
+    margin-top: 20px;
     padding: 10px 20px 10px 20px ;
     border-radius: 10px;
     background-color: #3B82F6;
     color: white;
 }
 .randominfo{
-    
+    margin: 40px;
     text-align: center;
 }
 
 .thumb-container{
+    padding: 40px;
     display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .thumb{
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     border: solid 2px#3B82F6;
     border-radius: 10px;
+    
 }
 
 .quotes{
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.quotes h2{
+    font-style: italic;
 }
 
 .footer{
